@@ -42,6 +42,11 @@
       "framework": "nodejs",
       "version": "5.5.0",
       "ignoreFlags": true
+    },
+    "browserify": {
+      "excludes": [
+        "fsevents"
+      ]
     }
   },
   "preferGlobal": true,
